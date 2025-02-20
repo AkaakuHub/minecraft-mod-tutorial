@@ -22,6 +22,8 @@ public abstract class ExampleTNTLangProvider extends LanguageProvider {
         protected void addTranslations() {
             this.add(ExampleTNTItems.SMALL_TNT.get(), "小型TNT");
             this.add(ExampleTNTBlocks.LARGE_TNT.get(), "大型TNT");
+            this.add(ExampleTNTBlocks.TEAM411_BLOCK.get(), "チーム411ブロック");
+            this.add(ExampleTNTBlocks.TEAM411_KADOMARU_BLOCK.get(), "チーム411角丸ブロック");
         }
     }
 
@@ -35,6 +37,8 @@ public abstract class ExampleTNTLangProvider extends LanguageProvider {
         protected void addTranslations() {
             this.add(ExampleTNTItems.SMALL_TNT.get(), "Small TNT");
             this.add(ExampleTNTBlocks.LARGE_TNT.get(), "Large TNT");
+            this.add(ExampleTNTBlocks.TEAM411_BLOCK.get(), "Team 411 Block");
+            this.add(ExampleTNTBlocks.TEAM411_KADOMARU_BLOCK.get(), "Team 411 Kadomaru Block");
         }
     }
 }

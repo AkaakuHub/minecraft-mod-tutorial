@@ -21,6 +21,8 @@ public class ExampleTNTEvents {
             event.accept(ExampleTNTItems.SMALL_TNT.get());
         } else if (event.getTab() == CreativeModeTabs.REDSTONE_BLOCKS) {
             event.accept(ExampleTNTBlocks.LARGE_TNT.get());
+        } else if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ExampleTNTBlocks.TEAM411_BLOCK.get());
         }
     }
 
@@ -32,6 +34,8 @@ public class ExampleTNTEvents {
                         .displayItems((parameters, output) -> {
                             output.accept(ExampleTNTItems.SMALL_TNT.get());
                             output.accept(ExampleTNTBlocks.LARGE_TNT.get());
+                            output.accept(ExampleTNTBlocks.TEAM411_BLOCK.get());
+                            output.accept(ExampleTNTBlocks.TEAM411_KADOMARU_BLOCK.get());
                             output.accept(Blocks.TNT);
                         })
                         .title(Component.translatable("block.minecraft.tnt")));

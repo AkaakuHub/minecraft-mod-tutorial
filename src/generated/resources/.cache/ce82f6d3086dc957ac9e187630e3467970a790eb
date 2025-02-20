@@ -1,4 +1,10 @@
-// 1.19.4	2025-02-20T22:53:28.9325899	Block States: exampletnt
+// 1.19.4	2025-02-20T23:58:54.1672998	Block States: exampletnt
 4ce9bbd0614817cc4c0aeb205c11f09efdfc980f assets/exampletnt/blockstates/large_tnt.json
+70ed2794102d377bf41a0c38e4673c8459f58259 assets/exampletnt/blockstates/team411_block.json
+ad171ff866c7a2d510a10fd8e78a22cc5e0d9fbe assets/exampletnt/blockstates/team411_kadomaru_block.json
 036104ee3191bd19b3f601b83c1507c899148602 assets/exampletnt/models/block/large_tnt.json
+1e77f2270f1370a1afee799233a7e4cb5a0c66eb assets/exampletnt/models/block/team411_block.json
+e1bd0a2c8ac58da861ee49b8b469a43c6f81832e assets/exampletnt/models/block/team411_kadomaru_block.json
 68cd2b05ef029c4a2a65e1dfb04fd6fe38138246 assets/exampletnt/models/item/large_tnt.json
+3f1abcf3938e34c5caf16ca80eaa83047cff6f3c assets/exampletnt/models/item/team411_block.json
+f955a91659bf10d0bb04f6eed94d0b02a1a867fe assets/exampletnt/models/item/team411_kadomaru_block.json

@@ -15,6 +15,8 @@ public class ExampleTNTBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         this.simpleBlockWithItem(ExampleTNTBlocks.LARGE_TNT.get(), this.cubeAll(ExampleTNTBlocks.LARGE_TNT.get()));
+        this.simpleBlockWithItem(ExampleTNTBlocks.TEAM411_BLOCK.get(), this.cubeAll(ExampleTNTBlocks.TEAM411_BLOCK.get()));
+        this.simpleBlockWithItem(ExampleTNTBlocks.TEAM411_KADOMARU_BLOCK.get(), this.cubeAll(ExampleTNTBlocks.TEAM411_KADOMARU_BLOCK.get()));
     }
 }
 
